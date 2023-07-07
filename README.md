@@ -48,3 +48,5 @@ This project is a web-based CRUD application equipped with a user-friendly inter
          run as -> run on server -> 
     
 ## Screenshots
+![im](https://github.com/chandanpradhan029/Java_Crud_App/assets/60406606/17b34b71-5510-4c2f-8e57-3aa3d743542e)
+
