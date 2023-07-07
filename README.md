@@ -29,6 +29,8 @@ This project is a web-based CRUD application equipped with a user-friendly inter
 
 - Download Tomcat Version 9.
 - Download and Install Eclipse.
+- Download Project zip file and extract it .
+- Import java project on eclipse
 - To configure Tomcat, follow these steps:
       
       1. After downloading Tomcat, extract it.
