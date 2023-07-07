@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+	rel="stylesheet">
+<title>save</title>
+</head>
+<body class="bg-gray-900">
+	<!--  Application Details Start -->
+	<div class="w-full bg-grey-500 ">
+		<div class="container mx-auto py-8 sm:my-20 sm:h-20 ">
+			<div class="w-96 mx-auto bg-white rounded shadow">
+
+				<div
+					class="mx-16 py-4 px-8 text-black text-xl font-bold border-b border-grey-500">Student
+					Details</div>
+
+				<form name="student_application" id="student_application"
+					action="save" method="post" >
+
+					<div class="py-4 px-8">
+
+						<div class="mb-4">
+							<label class="block text-grey-darker text-sm font-bold mb-2" >Name</label>
+							<input class=" border rounded w-full py-2 px-3 text-grey-darker"
+								type="text" name="name" placeholder="Enter Your Name" required>
+
+						</div>
+
+						<div class="mb-4">
+							<label class="block text-grey-darker text-sm font-bold mb-2">Age</label>
+							<input class=" border rounded w-full py-2 px-3 text-grey-darker"
+								type="text" name="age" placeholder="Enter Your Name" required>
+
+						</div>
+
+
+						<div class="mb-4">
+							<label class="block text-grey-darker text-sm font-bold mb-2">City</label>
+
+							<select name="city" class="border rounded w-full py-2 px-3 " required>
+								<option value="Banglore">Banglore</option>
+								<option value="Pune">Pune</option>
+								<option value="Hydrabad">Hydrabad</option>
+								<option value="Kolkata">Kolkata</option>
+								<option value="Roukela">Roukela</option>
+							</select>
+
+						</div>
+
+						<div class="mb-4">
+							<label class="block text-grey-darker text-sm font-bold mb-2">Email</label>
+							<input class=" border rounded w-full py-2 px-3 text-grey-darker"
+								type="text" name="email" placeholder="Enter Your Email" required>
+
+						</div>
+
+
+						<div class="mb-4">
+							<label class="block text-grey-darker text-sm font-bold mb-2">Phone</label>
+							<input class=" border rounded w-full py-2 px-3 text-grey-darker"
+								type="text" name="phone" placeholder="Enter Your Phone" required>
+
+						</div>
+
+
+						<div class="mb-4">
+							<label class="block text-grey-darker text-sm font-bold mb-2">Registration
+								Date</label> <input
+								class=" border rounded w-full py-2 px-3 text-grey-darker"
+								type="date" name="date" id="addmission_date" value="" required>
+							<p id=error_intake_year></p>
+						</div>
+
+						<div class="mb-4">
+						   <input type="submit" value="save" class="mb-2 mx-2 mt-2 py-3 px-10 pi bg-gradient-to-r from-green-400 to-blue-500 rounded-full  cursor-pointer  ">
+                            <button  class="mb-2 mx-2 mt-2 py-3 px-10 pi bg-gradient-to-r from-green-400 to-blue-500 rounded-full  cursor-pointer "><a href="./index.html">Back</a></button>
+						</div>
+						
+						
+						<div class="mb-4">
+						 
+						</div>	
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

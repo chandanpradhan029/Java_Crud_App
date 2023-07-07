@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+	rel="stylesheet">
+<title>update</title>
+</head>
+<body class="bg-gray-900"">
+	<!--  Application Details Start -->
+	<div class="w-full bg-grey-500 mt-24">
+		<div class="container mx-auto py-8">
+			<div class="w-96 mx-auto bg-white rounded shadow">
+
+				<div
+					class="mx-16 py-4 px-8 text-black text-xl font-bold border-b border-grey-500">Update
+					Data</div>
+
+				<form name="student_application" id="student_application"
+					action="update" method="post">
+					<div class="py-4 px-8">
+
+						<div class="mb-4">
+							<label class="block text-grey-darker text-sm font-bold mb-2">Phone</label>
+							<input required class=" border rounded w-full py-2 px-3 text-grey-darker"
+								type="text" name="phone"
+								placeholder="Enter New Phone Number To be Updated" >
+						</div>
+
+
+						<div class="mb-4 flex">
+							<input type="submit" value="Update"
+								class="mb-2 mx-2 mt-2 py-3 px-10 pi bg-gradient-to-r from-green-400 to-blue-500 rounded-full  cursor-pointer  ">
+							<button type="button"
+								class="mb-2 mx-2 mt-2 py-3 px-10 pi bg-gradient-to-r from-green-400 to-blue-500 rounded-full  cursor-pointer ">
+							<a href="./index.html">Back</a></button>
+							
+						</div>
+					</div>
+				</form>
+
+			</div>
+
+		</div>
+	</div>
+	<!--  Application Details End -->
+
+	<!-- Student Visa End -->
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+	rel="stylesheet">
+<title>Login To SMS </title>
+</head>
+<body>
+	<!-- component -->
+	<!-- page -->
+	<main
+		class="mx-auto flex min-h-screen w-full items-center justify-center bg-gray-900 text-white">
+		<!-- component -->
+		
+		<form action="login1" method="post" class="flex w-[30rem] flex-col space-y-10">
+			
+				<div class="text-center text-4xl font-medium">Log In</div>
+
+
+				<div
+					class="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500">
+					<input required type="text" placeholder="Enter Email " name="email"
+						class="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none" />
+				</div>
+
+				<div
+					class="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500">
+					<input required type="password" placeholder="Enter Password" name="password"
+						class="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none" />
+				</div>
+
+				<input type="submit" value="LOG IN" class="transform rounded-sm bg-indigo-600 py-2 font-bold duration-300 hover:bg-indigo-400 text-center"/>
+				<div  class="transform rounded-sm bg-indigo-600 py-2 font-bold duration-300 hover:bg-indigo-400 text-center"><a href="./index.html">Back</a></div>	
+			
+				
+			
+			</form>
+		
+		
+	</main>
+</body>
+</html>

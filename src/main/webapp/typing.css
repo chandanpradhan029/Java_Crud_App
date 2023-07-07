@@ -1,0 +1,60 @@
+.wrapper {
+  /* This part is important for centering */
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 0;
+  animation: typing 18s steps(22) infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 22ch;
+  }
+  25% {
+    width: 22ch;
+  }
+  30% {
+    width: 0;
+  }
+  40% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  55% {
+    width: 0;
+  }
+  60% {
+    width: 22ch;
+  }
+  70% {
+    width: 22ch;
+  }
+  75% {
+    width: 0;
+  }
+  85% {
+    width: 0;
+  }
+  95% {
+    width: 0;
+  }
+  100% {
+    width: 22ch;
+  }
+}
